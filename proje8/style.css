@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.header{
+    width: 100%;
+    color: lightgray;
+    background-color:#8e1e1e;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    
+     
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+#firstText{
+    width: 640px;
+    height: 370px;
+    font-size: 2rem;
+    outline: none; /* üstüne gittiğimizde siyah bir çercevenin olmasını kapattık*/
+    border-radius: 20px;
+}
+
+#secondText{
+    width: 640px;
+    height: 370px;
+    font-size: 2rem;
+    outline: none; /* üstüne gittiğimizde siyah bir çercevenin olmasını kapattık*/
+    border-radius: 20px;
+}
+
+
+textarea::placeholder{
+    text-align: center;
+}
+
+
+#encodeButton{
+    padding: 10px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+    background-color: darkgray;
+}
+
+
+#decodeButton{
+    padding: 10px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+    margin-top: 10px;
+    background-color: darkgray;
+}
+
+
+#encodeButton:hover{
+    background-color: rgb(130, 127, 127);
+    cursor: pointer;
+}
+
+#decodeButton:hover{
+    background-color: rgb(93, 89, 89);
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:midnightblue
+}
+
+.movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* satır bittiğinde resimleri alt satıra eklemesi için yaptık*/
+    margin-top: 20px;
+}
+
+.movie{
+    margin: 10px;
+    background-color: rgb(50, 50, 79);
+    width: 230px;
+    height: 425px;
+   
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.movieName{
+    color: lightgray;
+    margin-right: 15px;
+}
+
+.movieImbd{
+    color: lightgray;
+    background-color: brown;
+    padding: 5px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+}
+
+#searchİnput{
+    margin-top: 20px;
+    padding: 10px;
+  margin-right: 20px;
+  border-radius: 50px;
+  outline: none;
+}
